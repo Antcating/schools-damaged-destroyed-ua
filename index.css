@@ -1,6 +1,7 @@
-body {
+body, html {
     /* margin: 40px; */
     background-color: #18191A;
+    overflow: hidden;
   }
   
   .layout {
@@ -52,4 +53,10 @@ figcaption {
   font-size: 14px;
   padding-top: 10px;
   text-align: center;
+}
+
+#loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
 }
